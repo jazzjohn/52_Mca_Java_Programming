@@ -9,13 +9,13 @@ class Product {
         price = p;
     }
 
-    String FindLowestPrice(Product p1, Product p2, Product p3) {
-        if (p1.price < p2.price && p1.price < p3.price)
+    String FindLowestPrice(Product p1, Product p2) {
+        if (p1.price < p2.price && p1.price < price)
             return p1.pname;
-        if (p2.price < p1.price && p2.price < p3.price)
+        if (p2.price < p1.price && p2.price < price)
             return p2.pname;
         else
-            return p3.pname;
+            return pname;
     }
 }
 
@@ -33,7 +33,7 @@ public class ProductMain {
 
         p3.SetValues("P3", "BOOK", 25);
 
-        lname = p3.FindLowestPrice(p1, p2, p3);
+        lname = p3.FindLowestPrice(p1, p2);
 
         System.out.println("\nProduct having lowest price is : " + lname + "\n");
 
