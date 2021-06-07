@@ -3,10 +3,10 @@ class Product {
     String pname;
     double price;
 
-    void SetValues(String pc, String n, double p) {
-        pcode = pc;
-        pname = n;
-        price = p;
+    Product(String pcode, String pname, double price) {
+        this.pcode = pcode;
+        this.pname = pname;
+        this.price = price;
     }
 
     String FindLowestPrice(Product p1, Product p2) {
@@ -21,17 +21,11 @@ class Product {
 
 public class ProductMain {
     public static void main(String[] args) {
-        Product p1 = new Product();
-        Product p2 = new Product();
-        Product p3 = new Product();
+        Product p1 = new Product("P1", "SOAP", 45);
+        Product p2 = new Product("P2", "PEN", 10);
+        Product p3 = new Product("P3", "BOOK", 25);
 
         String lname;
-
-        p1.SetValues("P1", "SOAP", 45);
-
-        p2.SetValues("P2", "PEN", 10);
-
-        p3.SetValues("P3", "BOOK", 25);
 
         lname = p3.FindLowestPrice(p1, p2);
 

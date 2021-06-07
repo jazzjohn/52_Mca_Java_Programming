@@ -2,9 +2,9 @@ class AddComplexNumbers {
     double real;
     double image;
 
-    void setValues(double r, double i) {
-        real = r;
-        image = i;
+    AddComplexNumbers(double real, double image) {
+        this.real = real;
+        this.image = image;
     }
 
     void addition(AddComplexNumbers c1) {
@@ -15,11 +15,8 @@ class AddComplexNumbers {
 public class ComplexMain {
     public static void main(String[] str) {
 
-        AddComplexNumbers c1 = new AddComplexNumbers();
-        AddComplexNumbers c2 = new AddComplexNumbers();
-
-        c1.setValues(4, 1);
-        c2.setValues(5, 1);
+        AddComplexNumbers c1 = new AddComplexNumbers(4, 1);
+        AddComplexNumbers c2 = new AddComplexNumbers(5, 1);
 
         c2.addition(c1);
 
