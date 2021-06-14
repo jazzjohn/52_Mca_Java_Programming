@@ -8,7 +8,7 @@ class AddComplexNumbers {
     }
 
     void addition(AddComplexNumbers c1) {
-        System.out.println("Resulting Complex number : " + (real + c1.real) + "+" + (image + c1.image) + "i");
+        System.out.println("Resulting Complex number : " + (image + c1.image) + " i"+ " + " + (real + c1.real) );
     }
 }
 
