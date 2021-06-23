@@ -18,11 +18,6 @@ class CPU {
             System.out.print("Enter the manufacturer name:");
             manufacturer = read.nextLine();
         }
-        void display(){
-            System.out.println("\nProcessor Details");
-            System.out.println("__________________");
-            System.out.println("\nextLineNo of Cores : "+no_of_cores+"\nManufacturer : "+manufacturer+"\n");
-        }
     }
 
     static class RAM {
@@ -35,19 +30,19 @@ class CPU {
             System.out.print("Enter the manufacturer name:");
             manufacturer = read.nextLine();
         }
-        static void display(){
-            System.out.println("Memory Details");
-            System.out.println("__________________");
-            System.out.println("\nMemory size : "+memory+"GB\nManufacturer : "+manufacturer+"\n");
-        }
+
     }
 
     void Display(Scanner read){
         Processor p= new Processor();
         p.processorDetails(read);
         RAM.ramDetails(read);
-        p.display();
-        RAM.display();
+        System.out.println("\nProcessor Details");
+        System.out.println("__________________");
+        System.out.println("\nextLineNo of Cores : "+p.no_of_cores+"\nManufacturer : "+p.manufacturer+"\n");
+        System.out.println("Memory Details");
+        System.out.println("__________________");
+        System.out.println("\nMemory size : "+RAM.memory+"GB\nManufacturer : "+RAM.manufacturer+"\n");
     }
 }
 
