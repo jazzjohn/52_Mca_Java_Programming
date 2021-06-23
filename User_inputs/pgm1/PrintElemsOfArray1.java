@@ -6,6 +6,7 @@ class PrintElemsOfArray1 {
         Scanner read = new Scanner(System.in);
         System.out.print("Enter the limit:");
         limit = read.nextInt();
+        read.nextLine();
         String[] products = new String[limit];
         System.out.println("Enter the names of devices:");
         for(i=0; i < limit; i++){
