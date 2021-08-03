@@ -27,7 +27,7 @@ class Teacher extends Employee{
         System.out.println("\n\tDepartment : "+ Department);
         System.out.print("\n\tSubjects Tought : "+ Subjects[0]);
         for (int i=1;i<Subjects.length;i++){
-            System.out.print(",\t"+Subjects[i]);
+            System.out.print(", "+Subjects[i]);
         }
         System.out.println("\n\t______________________\n");
     }
