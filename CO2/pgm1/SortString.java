@@ -20,7 +20,12 @@ class StringArray{
 
     void SortString(){
         Arrays.sort(str);
-        System.out.print(Arrays.toString(str)+"\n");
+        // System.out.print(Arrays.toString(str)+"\n");
+        System.out.println("\n____________________________\n\nAfter sorting:\n____________________________\n");
+        for (int i=0; i<limit; i++)
+        {
+            System.out.println( str[i]); 
+        }
     }
 }
 
