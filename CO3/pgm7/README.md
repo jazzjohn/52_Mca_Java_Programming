@@ -1,8 +1,7 @@
-## :question: Prepare bill with the given format using calculate method 
-from interface.
+## :question: Prepare bill with the given format using calculate method from interface.
 
-Order No.
-Date :
+Order No.<br>
+Date :<br>
 
 <table align="center">
     <tr >
@@ -11,25 +10,25 @@ Date :
         <td align="center">Quantity</td>
         <td align="center">unit price</td>
         <td align="center">Total</td>
-    <tr>
+    </tr>
     <tr>
         <td align="center">101</td>
         <td align="center">A</td>
         <td align="center">2</td>
         <td align="center">25</td>
         <td align="center">50</td>
-    <tr>
+    </tr>
     <tr>
         <td align="center">102</td>
         <td align="center">B</td>
         <td align="center">1</td>
         <td align="center">100</td>
         <td align="center">100</td>
-    <tr>
+    </tr>
     <tr>
         <td align="right" colspan="4">Net.Amount</td>
         <td align="center">150</td>
-    <tr>
+    </tr>
 </table>
 
 
