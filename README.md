@@ -19,11 +19,11 @@ ___
 - [x] Inheritance and Multiple Inheritance
 - [x] Method Overriding and Abstraction
 - [x] Interfaces and Packages
-- [ ] Collection Framework(ArrayList,LinkedList,Stack,Ques,Set,Map)
+- [ ] Collection Framework (ArrayList, LinkedList, Stack, Ques, Set, Map)
 - [ ] Exception Handling
 - [ ] Multithreading
 - [ ] Generic Problems
-- [ ] Applet,Graphics-2D
+- [ ] Applet, Graphics-2D
 - [ ] Event Handling in Applet
 - [ ] File
 - [ ] Socket Programming
