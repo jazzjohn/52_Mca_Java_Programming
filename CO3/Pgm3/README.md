@@ -6,6 +6,6 @@ ___
 
 <br>
 
-<img src="Output/co3pg3op1.png" width="400"></img><br>
-<img src="Output/co3pg3op2.png" width="400"></img><br>
-<img src="Output/co3pg3op3.png" width="400"></img><br>
+<img src="../../Image/co3pg3op1.png" width="400"></img><br>
+<img src="../../Image/co3pg3op2.png" width="400"></img><br>
+<img src="../../Image/co3pg3op3.png" width="400"></img><br>

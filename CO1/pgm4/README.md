@@ -6,4 +6,4 @@ ___
 
 <br>
 
-<img src="Output/co1pg4op1.png" width="400"></img><br>
+<img src="../../Image/co1pg4op1.png" width="400"></img><br>

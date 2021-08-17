@@ -6,5 +6,5 @@ ___
 
 <br>
 
-<img src="Output/co3pg4op1.png" width="400"></img><br>
-<img src="Output/co3pg4op2.png" width="400"></img><br>
+<img src="../../Image/co3pg4op1.png" width="400"></img><br>
+<img src="../../Image/co3pg4op2.png" width="400"></img><br>

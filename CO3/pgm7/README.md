@@ -38,4 +38,4 @@ ___
 
 <br>
 
-<img src="Output/co3pg7op1.png" width="400"></img><br>
+<img src="../../Image/co3pg7op1.png" width="400"></img><br>
