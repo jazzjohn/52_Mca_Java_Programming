@@ -1,4 +1,4 @@
-## :question: Create an interface having prototypes of functionsarea() and perimeter(). Create two classes Circle and Rectangle which implements the above interface. Create a menu driven program to find area and perimeter of objects.
+## :question: Create a Graphics package that has classes and interfaces for figures Rectangle, Triangle, Square and Circle. Test the package by finding the area of these figures.
 ___
 <br>
 
@@ -6,6 +6,4 @@ ___
 
 <br>
 
-<img src="Output/co3pg6op1.png" width="400"></img><br>
-<img src="Output/co3pg6op2.png" width="400"></img><br>
-<img src="Output/co3pg6op3.png" width="400"></img><br>
+<img src="Output/co4pg1op1.png" width="400"></img><br>

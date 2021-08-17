@@ -31,12 +31,6 @@ Date :<br>
     </tr>
 </table>
 
-
-<!-- Product Id | Name | Quantity | unit price | Total
-:---: | :---: | :---: | :---: | :---: | :---: | :---:
-101 | A | 2 | 25 | 50
-102 | B | 1 | 100 | 100
-| | | Net.Amount |150 -->
 ___
 <br>
 
