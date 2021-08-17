@@ -4,10 +4,14 @@
 
 <img align="center"  src="Image/java1.png" style="margin:auto;">
 
+___
 
-# Java OOP Problems & Solutions
+# :fire:Java OOP Problems & Solutions
 
-> ## Main concepts covered
+</br>
+
+> ## :memo: Main concepts covered
+</br>
 
 - [x] Classes and Objects
 - [x] Constructors and Method Overloading
@@ -23,3 +27,4 @@
 - [ ] Event Handling in Applet
 - [ ] File
 - [ ] Socket Programming
+
