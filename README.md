@@ -1,6 +1,8 @@
-# Mca_Java_Programming_OOP_Problems
+
 
 <!-- ![Java](Image/java.png) -->
-<img align="center" width="90%" height="90%" src="Image/java.png" style="background-size:cover;">
+
+<img align="center"  src="Image/java1.png" style="margin:auto;">
 
 
+# Java OOP Problems & Solutions
