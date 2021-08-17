@@ -1,4 +1,14 @@
-## :question: Create an interface having prototypes of functionsarea() and perimeter(). Create two classes Circle and Rectangle which implements the above interface. Create a menu driven program to find area and perimeter of objects.
+## :question: Prepare bill with the given format using calculate method 
+from interface.
+
+Order No.
+Date :
+
+|Product Id | Name | Quantity | unit price | Total|
+| --- | --- | --- | --- | --- | --- | ---|
+| 101 | A | 2 | 25 | 50 |
+| 102 | B | 1 | 100 | 100
+| | | | Net.Amount |150
 ___
 <br>
 
@@ -6,6 +16,4 @@ ___
 
 <br>
 
-<img src="Output/co3pg6op1.png" width="400"></img><br>
-<img src="Output/co3pg6op2.png" width="400"></img><br>
-<img src="Output/co3pg6op3.png" width="400"></img><br>
+<img src="Output/co3pg7op1.png" width="400"></img><br>
