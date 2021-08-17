@@ -30,6 +30,7 @@ Date :
         <td align="right" colspan="4">Net.Amount</td>
         <td align="center">150</td>
     <tr>
+</table>
 
 
 <!-- Product Id | Name | Quantity | unit price | Total
