@@ -20,7 +20,7 @@ ___
 - [x] Method Overriding and Abstraction
 - [x] Interfaces and Packages
 - [ ] Collection Framework (ArrayList, LinkedList, Stack, Ques, Set, Map)
-- [ ] Exception Handling
+- [x] Exception Handling
 - [ ] Multithreading
 - [ ] Generic Problems
 - [ ] Applet, Graphics-2D
