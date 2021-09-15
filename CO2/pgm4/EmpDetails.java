@@ -1,26 +1,25 @@
 import java.util.*;
 
-class Employee{
+class EmployeeDetails{
     int eNo;
     String eName;
     Double eSalary;
-
-    Employee(int no, String name, Double salary){
+    EmployeeDetails(int no, String name, Double salary){
         eNo = no;
         eName = name;
         eSalary = salary;
     }
 }
 
-public class EmployeeDetails{
+public class EmpDetails{
 
-    public static Employee[] InsertEmployeeDetails(Scanner read){
+    public static EmployeeDetails[] InsertEmployeeDetails(Scanner read){
         int limit, num;
         String name;
         Double salary;
         System.out.print("Enter the number of Employee : ");
         limit = read.nextInt();
-        Employee[] emp = new Employee[limit];
+        EmployeeDetails[] eObj = new EmployeeDetails[limit];
         for (int i=0; i<limit; i++){
             System.out.print("\nEnter the Employee Number : ");
             num = read.nextInt();
@@ -29,12 +28,12 @@ public class EmployeeDetails{
             name = read.nextLine();
             System.out.print("Enter the Salary : ");
             salary = read.nextDouble();
-            emp[i] = new Employee(num,name,salary);
+            eObj[i] = new EmployeeDetails(num,name,salary);
         }
-        return emp;
+        return eObj;
     }
 
-    public static void Search(Employee[] emp,Scanner read){
+    public static void Search(EmployeeDetails[] emp,Scanner read){
         System.out.print("\nEnter the Employee Number to be Searched: ");
         int eNum = read.nextInt();
         for (int i=0 ; i < emp.length; i++){
@@ -51,7 +50,7 @@ public class EmployeeDetails{
 
     public static void main(String args[]){
         Scanner read = new Scanner(System.in);
-        Employee[] emp = InsertEmployeeDetails(read);
+        EmployeeDetails[] emp = InsertEmployeeDetails(read);
         Search(emp, read);
     }
 }
