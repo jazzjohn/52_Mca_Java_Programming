@@ -21,7 +21,7 @@ ___
 - [x] Interfaces and Packages
 - [ ] Collection Framework (ArrayList, LinkedList, Stack, Ques, Set, Map)
 - [x] Exception Handling
-- [ ] Multithreading
+- [x] Multithreading
 - [ ] Generic Problems
 - [ ] Applet, Graphics-2D
 - [ ] Event Handling in Applet
