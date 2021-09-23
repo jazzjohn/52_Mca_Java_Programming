@@ -16,12 +16,16 @@ implements MouseListener, MouseMotionListener{
 	public void init(){
 		addMouseListener(this);
 		addMouseMotionListener(this);
+
 	}
 
-	/*public void windowActivated(WindowEvent we){
+	public void windowActivated(WindowEvent we){
 		showStatus("Window activated");
 	}
-	
+
+	/*public void windowDeactivated(WindowEvent we){
+		showStatus("Window deactivated");
+	}
 	public void windowOpened(WindowEvent we){
 		showStatus("Window is opened");
 	}
