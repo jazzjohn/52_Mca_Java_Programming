@@ -11,7 +11,7 @@ public class KeyEvents extends Applet
 implements KeyListener{
 
 	String msg="";
-	int x=10,y=20;
+	//int x=10,y=20;
 
 	public void init(){
 		addKeyListener(this);
@@ -26,12 +26,12 @@ implements KeyListener{
 	}
 
 	public void keyTyped(KeyEvent ke){
-		msg = msg+ke.getKeyChar();
+		msg += ke.getKeyChar();
 		repaint();
 	}
 	public void paint(Graphics g)
 	{
-		g.drawString(msg,x,y);
+		g.drawString(msg,50,50);
 	}
 }
 

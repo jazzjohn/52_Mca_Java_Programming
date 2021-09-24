@@ -21,6 +21,10 @@ implements MouseListener, MouseMotionListener{
 	/*public void windowActivated(WindowEvent we){
 		showStatus("Window activated");
 	}
+
+	public void windowDeactivated(WindowEvent we){
+		showStatus("Window Deactivated");
+	}
 	
 	public void windowOpened(WindowEvent we){
 		showStatus("Window is opened");
@@ -74,7 +78,7 @@ implements MouseListener, MouseMotionListener{
 	}
 
 	public void paint(Graphics g) {
-		g.drawString(msg, x,y);
+		g.drawString(msg, 10,20);
 	}
 
 
