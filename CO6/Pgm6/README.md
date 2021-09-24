@@ -1,4 +1,4 @@
-## :question: Find the average of N positive integers, raising a user defined exception for each negative input.
+## :question: Client Server communication using DatagramSocket - UDP
 ___
 <br>
 
@@ -6,4 +6,4 @@ ___
 
 <br>
 
-<img src="../../Image/co4pgm4op1.png" width="400"></img><br>
+<img src="../../Image/co4pgm4op.png" width="400"></img><br>
