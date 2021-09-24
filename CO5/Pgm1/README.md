@@ -1,4 +1,4 @@
-## :question: Producer/Consumer using ITC
+## :question: Program to draw Circle, Rectangle, Line in Applet.
 ___
 <br>
 
@@ -6,4 +6,4 @@ ___
 
 <br>
 
-<img src="../../Image/co5pgm1op1.png" width="400"></img><br>
+<img src="../../Image/co5pgm1op1.PNG" width="400"></img><br>
