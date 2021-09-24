@@ -1,6 +1,7 @@
 {
     "screencastMode.fontSize": 50,
     "java.project.sourcePaths": [
+        "CO6/Pgm5",
         "CO4/pgm7",
         "CO4/pgm6",
         "CO4/pgm5",
@@ -11,6 +12,6 @@
         "CO3/Pgm2",
         "CO2/pgm4",
         "CO1/pgm1",
-        "CO6/Pgm5"
+        "CO6/Pgm6"
     ]
 }
